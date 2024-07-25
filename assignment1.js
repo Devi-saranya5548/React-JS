@@ -6,7 +6,7 @@ function Ass1() {
     var no = [23,7,5,4,3,3,4,3];
  
     return (
-        <div id="container">
+        <div id="container"> 
             {names.map((name, index) => 
                 <div key={index} id="in-container">
                     <img src="chef.png" alt="Chef" width = "60px" height="60px" />
