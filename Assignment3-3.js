@@ -7,7 +7,7 @@ function Final() {
         <div className="App">
             <h1>Product List</h1>
             <ProductList />
-        </div>
+        </div> 
     )
 };
 export default Final;
