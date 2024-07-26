@@ -7,7 +7,7 @@ const ProductList = () =>{
     useEffect(()=>{
         const fetchProducts = async () => {
             const response = await axios.get('https://fakestoreapi.com/products');
-            setProducts(response.data);
+            setProducts(response.data); 
         };
         fetchProducts();
     });
